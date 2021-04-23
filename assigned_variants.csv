@@ -1,0 +1,14 @@
+﻿Label,Status,Date added,Comment,definition_flexible,mutation label,Pango lineage
+B.1.351,VOC,,First identified in South Africa,yes,Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y,B.1.351
+P.1,VOC,,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_K417T;Spike_N501Y,P.1
+B.1.1.7,VOC,,First identified in the UK,yes,Spike_D614G;Spike_N501Y,B.1.1.7
+P.3,VOI,,First identified in the Philippines,yes,Spike_D614G;Spike_E484K;Spike_N501Y,P.3
+B.1.351 (missassigned),VOC,,First identified in South Africa (wrong lineage),no,Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y,B.1
+B.1.617,VOI,21/04/2021,First identified in India,yes,Spike_D614G;Spike_E484Q;Spike_L452R,B.1.617
+B.1.616,VOI,21/04/2021,First identified in France,yes,Spike_D614G;Spike_V483A,B.1.616
+B.1.525,VOI,21/04/2021,First identified in Nigeria,no,Spike_D614G;Spike_E484K,B.1.525
+B.1.214.2,VOI,21/04/2021,,yes,Spike_D614G;Spike_N450K;Spike_Q414K,B.1.214.2
+B.1.427,VOI,21/04/2021,First detected in the USA,yes,Spike_D614G;Spike_L452R,B.1.427
+B.1.429,VOI,21/04/2021,First detected in the USA,,Spike_D614G;Spike_L452R,B.1.429
+P.1 (missassigned),VOC,21/04/2021,First identified in Brazil,no,Spike_D614G;Spike_E484K;Spike_K417T;Spike_N501Y,None
+P.1.1,VOC,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_K417T;Spike_N501Y,P.1.1

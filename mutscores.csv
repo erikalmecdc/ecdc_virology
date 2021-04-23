@@ -1,0 +1,1274 @@
+﻿gene,pos,score,reason
+Spike,1,0.2,Spike protein
+Spike,2,0.2,Spike protein
+Spike,3,0.2,Spike protein
+Spike,4,0.2,Spike protein
+Spike,5,0.2,Spike protein
+Spike,6,0.2,Spike protein
+Spike,7,0.2,Spike protein
+Spike,8,0.2,Spike protein
+Spike,9,0.2,Spike protein
+Spike,10,0.2,Spike protein
+Spike,11,0.2,Spike protein
+Spike,12,0.2,Spike protein
+Spike,13,0.2,Spike protein
+Spike,14,0.5,N-terminal domain
+Spike,15,0.5,N-terminal domain
+Spike,16,0.5,N-terminal domain
+Spike,17,0.5,N-terminal domain
+Spike,18,0.5,N-terminal domain
+Spike,19,0.5,N-terminal domain
+Spike,20,0.5,N-terminal domain
+Spike,21,0.5,N-terminal domain
+Spike,22,0.5,N-terminal domain
+Spike,23,0.5,N-terminal domain
+Spike,24,0.5,N-terminal domain
+Spike,25,0.5,N-terminal domain
+Spike,26,0.5,N-terminal domain
+Spike,27,0.5,N-terminal domain
+Spike,28,0.5,N-terminal domain
+Spike,29,0.5,N-terminal domain
+Spike,30,0.5,N-terminal domain
+Spike,31,0.5,N-terminal domain
+Spike,32,0.5,N-terminal domain
+Spike,33,0.5,N-terminal domain
+Spike,34,0.5,N-terminal domain
+Spike,35,0.5,N-terminal domain
+Spike,36,0.5,N-terminal domain
+Spike,37,0.5,N-terminal domain
+Spike,38,0.5,N-terminal domain
+Spike,39,0.5,N-terminal domain
+Spike,40,0.5,N-terminal domain
+Spike,41,0.5,N-terminal domain
+Spike,42,0.5,N-terminal domain
+Spike,43,0.5,N-terminal domain
+Spike,44,0.5,N-terminal domain
+Spike,45,0.5,N-terminal domain
+Spike,46,0.5,N-terminal domain
+Spike,47,0.5,N-terminal domain
+Spike,48,0.5,N-terminal domain
+Spike,49,0.5,N-terminal domain
+Spike,50,0.5,N-terminal domain
+Spike,51,0.5,N-terminal domain
+Spike,52,0.5,N-terminal domain
+Spike,53,0.5,N-terminal domain
+Spike,54,0.5,N-terminal domain
+Spike,55,0.5,N-terminal domain
+Spike,56,0.5,N-terminal domain
+Spike,57,0.5,N-terminal domain
+Spike,58,0.5,N-terminal domain
+Spike,59,0.5,N-terminal domain
+Spike,60,0.5,N-terminal domain
+Spike,61,0.5,N-terminal domain
+Spike,62,0.5,N-terminal domain
+Spike,63,0.5,N-terminal domain
+Spike,64,0.5,N-terminal domain
+Spike,65,0.5,N-terminal domain
+Spike,66,0.5,N-terminal domain
+Spike,67,0.5,N-terminal domain
+Spike,68,0.5,N-terminal domain
+Spike,69,0.5,N-terminal domain
+Spike,70,0.5,N-terminal domain
+Spike,71,0.5,N-terminal domain
+Spike,72,0.5,N-terminal domain
+Spike,73,0.5,N-terminal domain
+Spike,74,0.5,N-terminal domain
+Spike,75,0.5,N-terminal domain
+Spike,76,0.5,N-terminal domain
+Spike,77,0.5,N-terminal domain
+Spike,78,0.5,N-terminal domain
+Spike,79,0.5,N-terminal domain
+Spike,80,0.5,N-terminal domain
+Spike,81,0.5,N-terminal domain
+Spike,82,0.5,N-terminal domain
+Spike,83,0.5,N-terminal domain
+Spike,84,0.5,N-terminal domain
+Spike,85,0.5,N-terminal domain
+Spike,86,0.5,N-terminal domain
+Spike,87,0.5,N-terminal domain
+Spike,88,0.5,N-terminal domain
+Spike,89,0.5,N-terminal domain
+Spike,90,0.5,N-terminal domain
+Spike,91,0.5,N-terminal domain
+Spike,92,0.5,N-terminal domain
+Spike,93,0.5,N-terminal domain
+Spike,94,0.5,N-terminal domain
+Spike,95,0.5,N-terminal domain
+Spike,96,0.5,N-terminal domain
+Spike,97,0.5,N-terminal domain
+Spike,98,0.5,N-terminal domain
+Spike,99,0.5,N-terminal domain
+Spike,100,0.5,N-terminal domain
+Spike,101,0.5,N-terminal domain
+Spike,102,0.5,N-terminal domain
+Spike,103,0.5,N-terminal domain
+Spike,104,0.5,N-terminal domain
+Spike,105,0.5,N-terminal domain
+Spike,106,0.5,N-terminal domain
+Spike,107,0.5,N-terminal domain
+Spike,108,0.5,N-terminal domain
+Spike,109,0.5,N-terminal domain
+Spike,110,0.5,N-terminal domain
+Spike,111,0.5,N-terminal domain
+Spike,112,0.5,N-terminal domain
+Spike,113,0.5,N-terminal domain
+Spike,114,0.5,N-terminal domain
+Spike,115,0.5,N-terminal domain
+Spike,116,0.5,N-terminal domain
+Spike,117,0.5,N-terminal domain
+Spike,118,0.5,N-terminal domain
+Spike,119,0.5,N-terminal domain
+Spike,120,0.5,N-terminal domain
+Spike,121,0.5,N-terminal domain
+Spike,122,0.5,N-terminal domain
+Spike,123,0.5,N-terminal domain
+Spike,124,0.5,N-terminal domain
+Spike,125,0.5,N-terminal domain
+Spike,126,0.5,N-terminal domain
+Spike,127,0.5,N-terminal domain
+Spike,128,0.5,N-terminal domain
+Spike,129,0.5,N-terminal domain
+Spike,130,0.5,N-terminal domain
+Spike,131,0.5,N-terminal domain
+Spike,132,0.5,N-terminal domain
+Spike,133,0.5,N-terminal domain
+Spike,134,0.5,N-terminal domain
+Spike,135,0.5,N-terminal domain
+Spike,136,0.5,N-terminal domain
+Spike,137,0.5,N-terminal domain
+Spike,138,0.5,N-terminal domain
+Spike,139,0.5,N-terminal domain
+Spike,140,0.5,N-terminal domain
+Spike,141,0.5,N-terminal domain
+Spike,142,0.5,N-terminal domain
+Spike,143,0.5,N-terminal domain
+Spike,144,0.5,N-terminal domain
+Spike,145,0.5,N-terminal domain
+Spike,146,0.5,N-terminal domain
+Spike,147,0.5,N-terminal domain
+Spike,148,0.5,N-terminal domain
+Spike,149,0.5,N-terminal domain
+Spike,150,0.5,N-terminal domain
+Spike,151,0.5,N-terminal domain
+Spike,152,0.5,N-terminal domain
+Spike,153,0.5,N-terminal domain
+Spike,154,0.5,N-terminal domain
+Spike,155,0.5,N-terminal domain
+Spike,156,0.5,N-terminal domain
+Spike,157,0.5,N-terminal domain
+Spike,158,0.5,N-terminal domain
+Spike,159,0.5,N-terminal domain
+Spike,160,0.5,N-terminal domain
+Spike,161,0.5,N-terminal domain
+Spike,162,0.5,N-terminal domain
+Spike,163,0.5,N-terminal domain
+Spike,164,0.5,N-terminal domain
+Spike,165,0.5,N-terminal domain
+Spike,166,0.5,N-terminal domain
+Spike,167,0.5,N-terminal domain
+Spike,168,0.5,N-terminal domain
+Spike,169,0.5,N-terminal domain
+Spike,170,0.5,N-terminal domain
+Spike,171,0.5,N-terminal domain
+Spike,172,0.5,N-terminal domain
+Spike,173,0.5,N-terminal domain
+Spike,174,0.5,N-terminal domain
+Spike,175,0.5,N-terminal domain
+Spike,176,0.5,N-terminal domain
+Spike,177,0.5,N-terminal domain
+Spike,178,0.5,N-terminal domain
+Spike,179,0.5,N-terminal domain
+Spike,180,0.5,N-terminal domain
+Spike,181,0.5,N-terminal domain
+Spike,182,0.5,N-terminal domain
+Spike,183,0.5,N-terminal domain
+Spike,184,0.5,N-terminal domain
+Spike,185,0.5,N-terminal domain
+Spike,186,0.5,N-terminal domain
+Spike,187,0.5,N-terminal domain
+Spike,188,0.5,N-terminal domain
+Spike,189,0.5,N-terminal domain
+Spike,190,0.5,N-terminal domain
+Spike,191,0.5,N-terminal domain
+Spike,192,0.5,N-terminal domain
+Spike,193,0.5,N-terminal domain
+Spike,194,0.5,N-terminal domain
+Spike,195,0.5,N-terminal domain
+Spike,196,0.5,N-terminal domain
+Spike,197,0.5,N-terminal domain
+Spike,198,0.5,N-terminal domain
+Spike,199,0.5,N-terminal domain
+Spike,200,0.5,N-terminal domain
+Spike,201,0.5,N-terminal domain
+Spike,202,0.5,N-terminal domain
+Spike,203,0.5,N-terminal domain
+Spike,204,0.5,N-terminal domain
+Spike,205,0.5,N-terminal domain
+Spike,206,0.5,N-terminal domain
+Spike,207,0.5,N-terminal domain
+Spike,208,0.5,N-terminal domain
+Spike,209,0.5,N-terminal domain
+Spike,210,0.5,N-terminal domain
+Spike,211,0.5,N-terminal domain
+Spike,212,0.5,N-terminal domain
+Spike,213,0.5,N-terminal domain
+Spike,214,0.5,N-terminal domain
+Spike,215,0.5,N-terminal domain
+Spike,216,0.5,N-terminal domain
+Spike,217,0.5,N-terminal domain
+Spike,218,0.5,N-terminal domain
+Spike,219,0.5,N-terminal domain
+Spike,220,0.5,N-terminal domain
+Spike,221,0.5,N-terminal domain
+Spike,222,0.5,N-terminal domain
+Spike,223,0.5,N-terminal domain
+Spike,224,0.5,N-terminal domain
+Spike,225,0.5,N-terminal domain
+Spike,226,0.5,N-terminal domain
+Spike,227,0.5,N-terminal domain
+Spike,228,0.5,N-terminal domain
+Spike,229,0.5,N-terminal domain
+Spike,230,0.5,N-terminal domain
+Spike,231,0.5,N-terminal domain
+Spike,232,0.5,N-terminal domain
+Spike,233,0.5,N-terminal domain
+Spike,234,0.5,N-terminal domain
+Spike,235,0.5,N-terminal domain
+Spike,236,0.5,N-terminal domain
+Spike,237,0.5,N-terminal domain
+Spike,238,0.5,N-terminal domain
+Spike,239,0.5,N-terminal domain
+Spike,240,0.5,N-terminal domain
+Spike,241,0.5,N-terminal domain
+Spike,242,0.5,N-terminal domain
+Spike,243,0.5,N-terminal domain
+Spike,244,0.5,N-terminal domain
+Spike,245,0.5,N-terminal domain
+Spike,246,0.5,N-terminal domain
+Spike,247,0.5,N-terminal domain
+Spike,248,0.5,N-terminal domain
+Spike,249,0.5,N-terminal domain
+Spike,250,0.5,N-terminal domain
+Spike,251,0.5,N-terminal domain
+Spike,252,0.5,N-terminal domain
+Spike,253,0.5,N-terminal domain
+Spike,254,0.5,N-terminal domain
+Spike,255,0.5,N-terminal domain
+Spike,256,0.5,N-terminal domain
+Spike,257,0.5,N-terminal domain
+Spike,258,0.5,N-terminal domain
+Spike,259,0.5,N-terminal domain
+Spike,260,0.5,N-terminal domain
+Spike,261,0.5,N-terminal domain
+Spike,262,0.5,N-terminal domain
+Spike,263,0.5,N-terminal domain
+Spike,264,0.5,N-terminal domain
+Spike,265,0.5,N-terminal domain
+Spike,266,0.5,N-terminal domain
+Spike,267,0.5,N-terminal domain
+Spike,268,0.5,N-terminal domain
+Spike,269,0.5,N-terminal domain
+Spike,270,0.5,N-terminal domain
+Spike,271,0.5,N-terminal domain
+Spike,272,0.5,N-terminal domain
+Spike,273,0.5,N-terminal domain
+Spike,274,0.5,N-terminal domain
+Spike,275,0.5,N-terminal domain
+Spike,276,0.5,N-terminal domain
+Spike,277,0.5,N-terminal domain
+Spike,278,0.5,N-terminal domain
+Spike,279,0.5,N-terminal domain
+Spike,280,0.5,N-terminal domain
+Spike,281,0.5,N-terminal domain
+Spike,282,0.5,N-terminal domain
+Spike,283,0.5,N-terminal domain
+Spike,284,0.5,N-terminal domain
+Spike,285,0.5,N-terminal domain
+Spike,286,0.5,N-terminal domain
+Spike,287,0.5,N-terminal domain
+Spike,288,0.5,N-terminal domain
+Spike,289,0.5,N-terminal domain
+Spike,290,0.5,N-terminal domain
+Spike,291,0.5,N-terminal domain
+Spike,292,0.5,N-terminal domain
+Spike,293,0.5,N-terminal domain
+Spike,294,0.5,N-terminal domain
+Spike,295,0.5,N-terminal domain
+Spike,296,0.5,N-terminal domain
+Spike,297,0.5,N-terminal domain
+Spike,298,0.5,N-terminal domain
+Spike,299,0.5,N-terminal domain
+Spike,300,0.5,N-terminal domain
+Spike,301,0.5,N-terminal domain
+Spike,302,0.5,N-terminal domain
+Spike,303,0.5,N-terminal domain
+Spike,304,0.2,Spike protein
+Spike,305,0.2,Spike protein
+Spike,306,0.2,Spike protein
+Spike,307,0.2,Spike protein
+Spike,308,0.2,Spike protein
+Spike,309,0.2,Spike protein
+Spike,310,0.2,Spike protein
+Spike,311,0.2,Spike protein
+Spike,312,0.2,Spike protein
+Spike,313,0.2,Spike protein
+Spike,314,0.2,Spike protein
+Spike,315,0.2,Spike protein
+Spike,316,0.2,Spike protein
+Spike,317,0.2,Spike protein
+Spike,318,0.2,Spike protein
+Spike,319,1.5,RBD
+Spike,320,1.5,RBD
+Spike,321,1.5,RBD
+Spike,322,1.5,RBD
+Spike,323,1.5,RBD
+Spike,324,1.5,RBD
+Spike,325,1.5,RBD
+Spike,326,1.5,RBD
+Spike,327,1.5,RBD
+Spike,328,1.5,RBD
+Spike,329,1.5,RBD
+Spike,330,1.5,RBD
+Spike,331,1.5,RBD
+Spike,332,1.5,RBD
+Spike,333,1.5,RBD
+Spike,334,1.5,RBD
+Spike,335,1.5,RBD
+Spike,336,1.5,RBD
+Spike,337,1.5,RBD
+Spike,338,1.5,RBD
+Spike,339,1.5,RBD
+Spike,340,1.5,RBD
+Spike,341,1.5,RBD
+Spike,342,1.5,RBD
+Spike,343,1.5,RBD
+Spike,344,1.5,RBD
+Spike,345,1.5,RBD
+Spike,346,1.5,RBD
+Spike,347,1.5,RBD
+Spike,348,1.5,RBD
+Spike,349,1.5,RBD
+Spike,350,1.5,RBD
+Spike,351,1.5,RBD
+Spike,352,1.5,RBD
+Spike,353,1.5,RBD
+Spike,354,1.5,RBD
+Spike,355,1.5,RBD
+Spike,356,1.5,RBD
+Spike,357,1.5,RBD
+Spike,358,1.5,RBD
+Spike,359,1.5,RBD
+Spike,360,1.5,RBD
+Spike,361,1.5,RBD
+Spike,362,1.5,RBD
+Spike,363,1.5,RBD
+Spike,364,1.5,RBD
+Spike,365,1.5,RBD
+Spike,366,1.5,RBD
+Spike,367,1.5,RBD
+Spike,368,1.5,RBD
+Spike,369,1.5,RBD
+Spike,370,1.5,RBD
+Spike,371,1.5,RBD
+Spike,372,1.5,RBD
+Spike,373,1.5,RBD
+Spike,374,1.5,RBD
+Spike,375,1.5,RBD
+Spike,376,1.5,RBD
+Spike,377,1.5,RBD
+Spike,378,1.5,RBD
+Spike,379,1.5,RBD
+Spike,380,1.5,RBD
+Spike,381,1.5,RBD
+Spike,382,1.5,RBD
+Spike,383,1.5,RBD
+Spike,384,1.5,RBD
+Spike,385,1.5,RBD
+Spike,386,1.5,RBD
+Spike,387,1.5,RBD
+Spike,388,1.5,RBD
+Spike,389,1.5,RBD
+Spike,390,1.5,RBD
+Spike,391,1.5,RBD
+Spike,392,1.5,RBD
+Spike,393,1.5,RBD
+Spike,394,1.5,RBD
+Spike,395,1.5,RBD
+Spike,396,1.5,RBD
+Spike,397,1.5,RBD
+Spike,398,1.5,RBD
+Spike,399,1.5,RBD
+Spike,400,1.5,RBD
+Spike,401,1.5,RBD
+Spike,402,1.5,RBD
+Spike,403,1.5,RBD
+Spike,404,1.5,RBD
+Spike,405,1.5,RBD
+Spike,406,1.5,RBD
+Spike,407,1.5,RBD
+Spike,408,1.5,RBD
+Spike,409,1.5,RBD
+Spike,410,1.5,RBD
+Spike,411,1.5,RBD
+Spike,412,1.5,RBD
+Spike,413,1.5,RBD
+Spike,414,1.5,RBD
+Spike,415,1.5,RBD
+Spike,416,1.5,RBD
+Spike,417,1.5,RBD. VOC-associated
+Spike,418,1.5,RBD
+Spike,419,1.5,RBD
+Spike,420,1.5,RBD
+Spike,421,1.5,RBD
+Spike,422,1.5,RBD
+Spike,423,1.5,RBD
+Spike,424,1.5,RBD
+Spike,425,1.5,RBD
+Spike,426,1.5,RBD
+Spike,427,1.5,RBD
+Spike,428,1.5,RBD
+Spike,429,1.5,RBD
+Spike,430,1.5,RBD
+Spike,431,1.5,RBD
+Spike,432,1.5,RBD
+Spike,433,1.5,RBD
+Spike,434,1.5,RBD
+Spike,435,1.5,RBD
+Spike,436,1.5,RBD
+Spike,437,1.5,RBD
+Spike,438,1.5,RBD
+Spike,439,1.5,RBD
+Spike,440,1.5,RBD
+Spike,441,1.5,RBD
+Spike,442,1.5,RBD
+Spike,443,1.5,RBD
+Spike,444,1.5,RBD
+Spike,445,1.5,RBD
+Spike,446,1.5,RBD
+Spike,447,1.5,RBD
+Spike,448,1.5,RBD
+Spike,449,1.5,RBD
+Spike,450,1.5,RBD
+Spike,451,1.5,RBD
+Spike,452,2.5,RBD. Reduction in neutralisation. VOC-associated by US-CDC.
+Spike,453,2.5,RBD. Mink-associated.
+Spike,454,1.5,RBD
+Spike,455,1.5,RBD
+Spike,456,1.5,RBD
+Spike,457,1.5,RBD
+Spike,458,1.5,RBD
+Spike,459,1.5,RBD
+Spike,460,1.5,RBD
+Spike,461,1.5,RBD
+Spike,462,1.5,RBD
+Spike,463,1.5,RBD
+Spike,464,1.5,RBD
+Spike,465,1.5,RBD
+Spike,466,1.5,RBD
+Spike,467,1.5,RBD
+Spike,468,1.5,RBD
+Spike,469,1.5,RBD
+Spike,470,1.5,RBD
+Spike,471,1.5,RBD
+Spike,472,1.5,RBD
+Spike,473,1.5,RBD
+Spike,474,1.5,RBD
+Spike,475,1.5,RBD
+Spike,476,1.5,RBD
+Spike,477,1.5,RBD
+Spike,478,1.5,RBD
+Spike,479,1.5,RBD
+Spike,480,1.5,RBD
+Spike,481,1.5,RBD
+Spike,482,1.5,RBD
+Spike,483,1.5,RBD
+Spike,484,3,RBD. Reduction in neutralisation. VOC-associated.
+Spike,485,1.5,RBD
+Spike,486,1.5,RBD
+Spike,487,1.5,RBD
+Spike,488,1.5,RBD
+Spike,489,1.5,RBD
+Spike,490,1.5,RBD
+Spike,491,1.5,RBD
+Spike,492,1.5,RBD
+Spike,493,1.5,RBD
+Spike,494,1.5,RBD
+Spike,495,1.5,RBD
+Spike,496,1.5,RBD
+Spike,497,1.5,RBD
+Spike,498,1.5,RBD
+Spike,499,1.5,RBD
+Spike,500,1.5,RBD
+Spike,501,3.5,RBD. Increased transmissibility. VOC-associated.
+Spike,502,1.5,RBD
+Spike,503,1.5,RBD
+Spike,504,1.5,RBD
+Spike,505,1.5,RBD
+Spike,506,1.5,RBD
+Spike,507,1.5,RBD
+Spike,508,1.5,RBD
+Spike,509,1.5,RBD
+Spike,510,1.5,RBD
+Spike,511,1.5,RBD
+Spike,512,1.5,RBD
+Spike,513,1.5,RBD
+Spike,514,1.5,RBD
+Spike,515,1.5,RBD
+Spike,516,1.5,RBD
+Spike,517,1.5,RBD
+Spike,518,1.5,RBD
+Spike,519,1.5,RBD
+Spike,520,1.5,RBD
+Spike,521,1.5,RBD
+Spike,522,1.5,RBD
+Spike,523,1.5,RBD
+Spike,524,1.5,RBD
+Spike,525,1.5,RBD
+Spike,526,1.5,RBD
+Spike,527,1.5,RBD
+Spike,528,1.5,RBD
+Spike,529,1.5,RBD
+Spike,530,1.5,RBD
+Spike,531,1.5,RBD
+Spike,532,1.5,RBD
+Spike,533,1.5,RBD
+Spike,534,1.5,RBD
+Spike,535,1.5,RBD
+Spike,536,1.5,RBD
+Spike,537,1.5,RBD
+Spike,538,1.5,RBD
+Spike,539,1.5,RBD
+Spike,540,1.5,RBD
+Spike,541,1.5,RBD
+Spike,542,0.2,Spike protein
+Spike,543,0.2,Spike protein
+Spike,544,0.2,Spike protein
+Spike,545,0.2,Spike protein
+Spike,546,0.2,Spike protein
+Spike,547,0.2,Spike protein
+Spike,548,0.2,Spike protein
+Spike,549,0.2,Spike protein
+Spike,550,0.2,Spike protein
+Spike,551,0.2,Spike protein
+Spike,552,0.2,Spike protein
+Spike,553,0.2,Spike protein
+Spike,554,0.2,Spike protein
+Spike,555,0.2,Spike protein
+Spike,556,0.2,Spike protein
+Spike,557,0.2,Spike protein
+Spike,558,0.2,Spike protein
+Spike,559,0.2,Spike protein
+Spike,560,0.2,Spike protein
+Spike,561,0.2,Spike protein
+Spike,562,0.2,Spike protein
+Spike,563,0.2,Spike protein
+Spike,564,0.2,Spike protein
+Spike,565,0.2,Spike protein
+Spike,566,0.2,Spike protein
+Spike,567,0.2,Spike protein
+Spike,568,0.2,Spike protein
+Spike,569,0.2,Spike protein
+Spike,570,0.2,Spike protein
+Spike,571,0.2,Spike protein
+Spike,572,0.2,Spike protein
+Spike,573,0.2,Spike protein
+Spike,574,0.2,Spike protein
+Spike,575,0.2,Spike protein
+Spike,576,0.2,Spike protein
+Spike,577,0.2,Spike protein
+Spike,578,0.2,Spike protein
+Spike,579,0.2,Spike protein
+Spike,580,0.2,Spike protein
+Spike,581,0.2,Spike protein
+Spike,582,0.2,Spike protein
+Spike,583,0.2,Spike protein
+Spike,584,0.2,Spike protein
+Spike,585,0.2,Spike protein
+Spike,586,0.2,Spike protein
+Spike,587,0.2,Spike protein
+Spike,588,0.2,Spike protein
+Spike,589,0.2,Spike protein
+Spike,590,0.2,Spike protein
+Spike,591,0.2,Spike protein
+Spike,592,0.2,Spike protein
+Spike,593,0.2,Spike protein
+Spike,594,0.2,Spike protein
+Spike,595,0.2,Spike protein
+Spike,596,0.2,Spike protein
+Spike,597,0.2,Spike protein
+Spike,598,0.2,Spike protein
+Spike,599,0.2,Spike protein
+Spike,600,0.2,Spike protein
+Spike,601,0.2,Spike protein
+Spike,602,0.2,Spike protein
+Spike,603,0.2,Spike protein
+Spike,604,0.2,Spike protein
+Spike,605,0.2,Spike protein
+Spike,606,0.2,Spike protein
+Spike,607,0.2,Spike protein
+Spike,608,0.2,Spike protein
+Spike,609,0.2,Spike protein
+Spike,610,0.5,Close to 614
+Spike,611,0.5,Close to 614
+Spike,612,0.5,Close to 614
+Spike,613,1,Close to 614
+Spike,614,2,Increased transmissibility.
+Spike,615,1,Close to 614
+Spike,616,0.5,Close to 614
+Spike,617,0.5,Close to 614
+Spike,618,0.5,Close to 614
+Spike,619,0.2,Spike protein
+Spike,620,0.2,Spike protein
+Spike,621,0.2,Spike protein
+Spike,622,0.2,Spike protein
+Spike,623,0.2,Spike protein
+Spike,624,0.2,Spike protein
+Spike,625,0.2,Spike protein
+Spike,626,0.2,Spike protein
+Spike,627,0.2,Spike protein
+Spike,628,0.2,Spike protein
+Spike,629,0.2,Spike protein
+Spike,630,0.2,Spike protein
+Spike,631,0.2,Spike protein
+Spike,632,0.2,Spike protein
+Spike,633,0.2,Spike protein
+Spike,634,0.2,Spike protein
+Spike,635,0.2,Spike protein
+Spike,636,0.2,Spike protein
+Spike,637,0.2,Spike protein
+Spike,638,0.2,Spike protein
+Spike,639,0.2,Spike protein
+Spike,640,0.2,Spike protein
+Spike,641,0.2,Spike protein
+Spike,642,0.2,Spike protein
+Spike,643,0.2,Spike protein
+Spike,644,0.2,Spike protein
+Spike,645,0.2,Spike protein
+Spike,646,0.2,Spike protein
+Spike,647,0.2,Spike protein
+Spike,648,0.2,Spike protein
+Spike,649,0.2,Spike protein
+Spike,650,0.2,Spike protein
+Spike,651,0.2,Spike protein
+Spike,652,0.2,Spike protein
+Spike,653,0.2,Spike protein
+Spike,654,0.2,Spike protein
+Spike,655,0.2,Spike protein
+Spike,656,0.2,Spike protein
+Spike,657,0.2,Spike protein
+Spike,658,0.2,Spike protein
+Spike,659,0.2,Spike protein
+Spike,660,0.2,Spike protein
+Spike,661,0.2,Spike protein
+Spike,662,0.2,Spike protein
+Spike,663,0.2,Spike protein
+Spike,664,0.2,Spike protein
+Spike,665,0.2,Spike protein
+Spike,666,0.2,Spike protein
+Spike,667,0.2,Spike protein
+Spike,668,0.2,Spike protein
+Spike,669,0.2,Spike protein
+Spike,670,0.2,Spike protein
+Spike,671,0.2,Spike protein
+Spike,672,0.2,Spike protein
+Spike,673,0.2,Spike protein
+Spike,674,0.2,Spike protein
+Spike,675,0.2,Spike protein
+Spike,676,0.2,Spike protein
+Spike,677,0.2,Spike protein
+Spike,678,0.2,Spike protein
+Spike,679,0.2,Spike protein
+Spike,680,0.2,Spike protein
+Spike,681,0.2,Spike protein
+Spike,682,0.2,Spike protein
+Spike,683,0.2,Spike protein
+Spike,684,0.2,Spike protein
+Spike,685,0.2,Spike protein
+Spike,686,0.2,Spike protein
+Spike,687,0.2,Spike protein
+Spike,688,0.2,Spike protein
+Spike,689,0.2,Spike protein
+Spike,690,0.2,Spike protein
+Spike,691,0.2,Spike protein
+Spike,692,0.2,Spike protein
+Spike,693,0.2,Spike protein
+Spike,694,0.2,Spike protein
+Spike,695,0.2,Spike protein
+Spike,696,0.2,Spike protein
+Spike,697,0.2,Spike protein
+Spike,698,0.2,Spike protein
+Spike,699,0.2,Spike protein
+Spike,700,0.2,Spike protein
+Spike,701,0.2,Spike protein
+Spike,702,0.2,Spike protein
+Spike,703,0.2,Spike protein
+Spike,704,0.2,Spike protein
+Spike,705,0.2,Spike protein
+Spike,706,0.2,Spike protein
+Spike,707,0.2,Spike protein
+Spike,708,0.2,Spike protein
+Spike,709,0.2,Spike protein
+Spike,710,0.2,Spike protein
+Spike,711,0.2,Spike protein
+Spike,712,0.2,Spike protein
+Spike,713,0.2,Spike protein
+Spike,714,0.2,Spike protein
+Spike,715,0.2,Spike protein
+Spike,716,0.2,Spike protein
+Spike,717,0.2,Spike protein
+Spike,718,0.2,Spike protein
+Spike,719,0.2,Spike protein
+Spike,720,0.2,Spike protein
+Spike,721,0.2,Spike protein
+Spike,722,0.2,Spike protein
+Spike,723,0.2,Spike protein
+Spike,724,0.2,Spike protein
+Spike,725,0.2,Spike protein
+Spike,726,0.2,Spike protein
+Spike,727,0.2,Spike protein
+Spike,728,0.2,Spike protein
+Spike,729,0.2,Spike protein
+Spike,730,0.2,Spike protein
+Spike,731,0.2,Spike protein
+Spike,732,0.2,Spike protein
+Spike,733,0.2,Spike protein
+Spike,734,0.2,Spike protein
+Spike,735,0.2,Spike protein
+Spike,736,0.2,Spike protein
+Spike,737,0.2,Spike protein
+Spike,738,0.2,Spike protein
+Spike,739,0.2,Spike protein
+Spike,740,0.2,Spike protein
+Spike,741,0.2,Spike protein
+Spike,742,0.2,Spike protein
+Spike,743,0.2,Spike protein
+Spike,744,0.2,Spike protein
+Spike,745,0.2,Spike protein
+Spike,746,0.2,Spike protein
+Spike,747,0.2,Spike protein
+Spike,748,0.2,Spike protein
+Spike,749,0.2,Spike protein
+Spike,750,0.2,Spike protein
+Spike,751,0.2,Spike protein
+Spike,752,0.2,Spike protein
+Spike,753,0.2,Spike protein
+Spike,754,0.2,Spike protein
+Spike,755,0.2,Spike protein
+Spike,756,0.2,Spike protein
+Spike,757,0.2,Spike protein
+Spike,758,0.2,Spike protein
+Spike,759,0.2,Spike protein
+Spike,760,0.2,Spike protein
+Spike,761,0.2,Spike protein
+Spike,762,0.2,Spike protein
+Spike,763,0.2,Spike protein
+Spike,764,0.2,Spike protein
+Spike,765,0.2,Spike protein
+Spike,766,0.2,Spike protein
+Spike,767,0.2,Spike protein
+Spike,768,0.2,Spike protein
+Spike,769,0.2,Spike protein
+Spike,770,0.2,Spike protein
+Spike,771,0.2,Spike protein
+Spike,772,0.2,Spike protein
+Spike,773,0.2,Spike protein
+Spike,774,0.2,Spike protein
+Spike,775,0.2,Spike protein
+Spike,776,0.2,Spike protein
+Spike,777,0.2,Spike protein
+Spike,778,0.2,Spike protein
+Spike,779,0.2,Spike protein
+Spike,780,0.2,Spike protein
+Spike,781,0.2,Spike protein
+Spike,782,0.2,Spike protein
+Spike,783,0.2,Spike protein
+Spike,784,0.2,Spike protein
+Spike,785,0.2,Spike protein
+Spike,786,0.2,Spike protein
+Spike,787,0.2,Spike protein
+Spike,788,0.2,Spike protein
+Spike,789,0.2,Spike protein
+Spike,790,0.2,Spike protein
+Spike,791,0.2,Spike protein
+Spike,792,0.2,Spike protein
+Spike,793,0.2,Spike protein
+Spike,794,0.2,Spike protein
+Spike,795,0.2,Spike protein
+Spike,796,0.2,Spike protein
+Spike,797,0.2,Spike protein
+Spike,798,0.2,Spike protein
+Spike,799,0.2,Spike protein
+Spike,800,0.2,Spike protein
+Spike,801,0.2,Spike protein
+Spike,802,0.2,Spike protein
+Spike,803,0.2,Spike protein
+Spike,804,0.2,Spike protein
+Spike,805,0.2,Spike protein
+Spike,806,0.2,Spike protein
+Spike,807,0.2,Spike protein
+Spike,808,0.2,Spike protein
+Spike,809,0.2,Spike protein
+Spike,810,0.2,Spike protein
+Spike,811,0.2,Spike protein
+Spike,812,0.2,Spike protein
+Spike,813,0.2,Spike protein
+Spike,814,0.2,Spike protein
+Spike,815,0.2,Spike protein
+Spike,816,0.2,Spike protein
+Spike,817,0.2,Spike protein
+Spike,818,0.2,Spike protein
+Spike,819,0.2,Spike protein
+Spike,820,0.2,Spike protein
+Spike,821,0.2,Spike protein
+Spike,822,0.2,Spike protein
+Spike,823,0.2,Spike protein
+Spike,824,0.2,Spike protein
+Spike,825,0.2,Spike protein
+Spike,826,0.2,Spike protein
+Spike,827,0.2,Spike protein
+Spike,828,0.2,Spike protein
+Spike,829,0.2,Spike protein
+Spike,830,0.2,Spike protein
+Spike,831,0.2,Spike protein
+Spike,832,0.2,Spike protein
+Spike,833,0.2,Spike protein
+Spike,834,0.2,Spike protein
+Spike,835,0.2,Spike protein
+Spike,836,0.2,Spike protein
+Spike,837,0.2,Spike protein
+Spike,838,0.2,Spike protein
+Spike,839,0.2,Spike protein
+Spike,840,0.2,Spike protein
+Spike,841,0.2,Spike protein
+Spike,842,0.2,Spike protein
+Spike,843,0.2,Spike protein
+Spike,844,0.2,Spike protein
+Spike,845,0.2,Spike protein
+Spike,846,0.2,Spike protein
+Spike,847,0.2,Spike protein
+Spike,848,0.2,Spike protein
+Spike,849,0.2,Spike protein
+Spike,850,0.2,Spike protein
+Spike,851,0.2,Spike protein
+Spike,852,0.2,Spike protein
+Spike,853,0.2,Spike protein
+Spike,854,0.2,Spike protein
+Spike,855,0.2,Spike protein
+Spike,856,0.2,Spike protein
+Spike,857,0.2,Spike protein
+Spike,858,0.2,Spike protein
+Spike,859,0.2,Spike protein
+Spike,860,0.2,Spike protein
+Spike,861,0.2,Spike protein
+Spike,862,0.2,Spike protein
+Spike,863,0.2,Spike protein
+Spike,864,0.2,Spike protein
+Spike,865,0.2,Spike protein
+Spike,866,0.2,Spike protein
+Spike,867,0.2,Spike protein
+Spike,868,0.2,Spike protein
+Spike,869,0.2,Spike protein
+Spike,870,0.2,Spike protein
+Spike,871,0.2,Spike protein
+Spike,872,0.2,Spike protein
+Spike,873,0.2,Spike protein
+Spike,874,0.2,Spike protein
+Spike,875,0.2,Spike protein
+Spike,876,0.2,Spike protein
+Spike,877,0.2,Spike protein
+Spike,878,0.2,Spike protein
+Spike,879,0.2,Spike protein
+Spike,880,0.2,Spike protein
+Spike,881,0.2,Spike protein
+Spike,882,0.2,Spike protein
+Spike,883,0.2,Spike protein
+Spike,884,0.2,Spike protein
+Spike,885,0.2,Spike protein
+Spike,886,0.2,Spike protein
+Spike,887,0.2,Spike protein
+Spike,888,0.2,Spike protein
+Spike,889,0.2,Spike protein
+Spike,890,0.2,Spike protein
+Spike,891,0.2,Spike protein
+Spike,892,0.2,Spike protein
+Spike,893,0.2,Spike protein
+Spike,894,0.2,Spike protein
+Spike,895,0.2,Spike protein
+Spike,896,0.2,Spike protein
+Spike,897,0.2,Spike protein
+Spike,898,0.2,Spike protein
+Spike,899,0.2,Spike protein
+Spike,900,0.2,Spike protein
+Spike,901,0.2,Spike protein
+Spike,902,0.2,Spike protein
+Spike,903,0.2,Spike protein
+Spike,904,0.2,Spike protein
+Spike,905,0.2,Spike protein
+Spike,906,0.2,Spike protein
+Spike,907,0.2,Spike protein
+Spike,908,0.2,Spike protein
+Spike,909,0.2,Spike protein
+Spike,910,0.2,Spike protein
+Spike,911,0.2,Spike protein
+Spike,912,0.2,Spike protein
+Spike,913,0.2,Spike protein
+Spike,914,0.2,Spike protein
+Spike,915,0.2,Spike protein
+Spike,916,0.2,Spike protein
+Spike,917,0.2,Spike protein
+Spike,918,0.2,Spike protein
+Spike,919,0.2,Spike protein
+Spike,920,0.2,Spike protein
+Spike,921,0.2,Spike protein
+Spike,922,0.2,Spike protein
+Spike,923,0.2,Spike protein
+Spike,924,0.2,Spike protein
+Spike,925,0.2,Spike protein
+Spike,926,0.2,Spike protein
+Spike,927,0.2,Spike protein
+Spike,928,0.2,Spike protein
+Spike,929,0.2,Spike protein
+Spike,930,0.2,Spike protein
+Spike,931,0.2,Spike protein
+Spike,932,0.2,Spike protein
+Spike,933,0.2,Spike protein
+Spike,934,0.2,Spike protein
+Spike,935,0.2,Spike protein
+Spike,936,0.2,Spike protein
+Spike,937,0.2,Spike protein
+Spike,938,0.2,Spike protein
+Spike,939,0.2,Spike protein
+Spike,940,0.2,Spike protein
+Spike,941,0.2,Spike protein
+Spike,942,0.2,Spike protein
+Spike,943,0.2,Spike protein
+Spike,944,0.2,Spike protein
+Spike,945,0.2,Spike protein
+Spike,946,0.2,Spike protein
+Spike,947,0.2,Spike protein
+Spike,948,0.2,Spike protein
+Spike,949,0.2,Spike protein
+Spike,950,0.2,Spike protein
+Spike,951,0.2,Spike protein
+Spike,952,0.2,Spike protein
+Spike,953,0.2,Spike protein
+Spike,954,0.2,Spike protein
+Spike,955,0.2,Spike protein
+Spike,956,0.2,Spike protein
+Spike,957,0.2,Spike protein
+Spike,958,0.2,Spike protein
+Spike,959,0.2,Spike protein
+Spike,960,0.2,Spike protein
+Spike,961,0.2,Spike protein
+Spike,962,0.2,Spike protein
+Spike,963,0.2,Spike protein
+Spike,964,0.2,Spike protein
+Spike,965,0.2,Spike protein
+Spike,966,0.2,Spike protein
+Spike,967,0.2,Spike protein
+Spike,968,0.2,Spike protein
+Spike,969,0.2,Spike protein
+Spike,970,0.2,Spike protein
+Spike,971,0.2,Spike protein
+Spike,972,0.2,Spike protein
+Spike,973,0.2,Spike protein
+Spike,974,0.2,Spike protein
+Spike,975,0.2,Spike protein
+Spike,976,0.2,Spike protein
+Spike,977,0.2,Spike protein
+Spike,978,0.2,Spike protein
+Spike,979,0.2,Spike protein
+Spike,980,0.2,Spike protein
+Spike,981,0.2,Spike protein
+Spike,982,0.2,Spike protein
+Spike,983,0.2,Spike protein
+Spike,984,0.2,Spike protein
+Spike,985,0.2,Spike protein
+Spike,986,0.2,Spike protein
+Spike,987,0.2,Spike protein
+Spike,988,0.2,Spike protein
+Spike,989,0.2,Spike protein
+Spike,990,0.2,Spike protein
+Spike,991,0.2,Spike protein
+Spike,992,0.2,Spike protein
+Spike,993,0.2,Spike protein
+Spike,994,0.2,Spike protein
+Spike,995,0.2,Spike protein
+Spike,996,0.2,Spike protein
+Spike,997,0.2,Spike protein
+Spike,998,0.2,Spike protein
+Spike,999,0.2,Spike protein
+Spike,1000,0.2,Spike protein
+Spike,1001,0.2,Spike protein
+Spike,1002,0.2,Spike protein
+Spike,1003,0.2,Spike protein
+Spike,1004,0.2,Spike protein
+Spike,1005,0.2,Spike protein
+Spike,1006,0.2,Spike protein
+Spike,1007,0.2,Spike protein
+Spike,1008,0.2,Spike protein
+Spike,1009,0.2,Spike protein
+Spike,1010,0.2,Spike protein
+Spike,1011,0.2,Spike protein
+Spike,1012,0.2,Spike protein
+Spike,1013,0.2,Spike protein
+Spike,1014,0.2,Spike protein
+Spike,1015,0.2,Spike protein
+Spike,1016,0.2,Spike protein
+Spike,1017,0.2,Spike protein
+Spike,1018,0.2,Spike protein
+Spike,1019,0.2,Spike protein
+Spike,1020,0.2,Spike protein
+Spike,1021,0.2,Spike protein
+Spike,1022,0.2,Spike protein
+Spike,1023,0.2,Spike protein
+Spike,1024,0.2,Spike protein
+Spike,1025,0.2,Spike protein
+Spike,1026,0.2,Spike protein
+Spike,1027,0.2,Spike protein
+Spike,1028,0.2,Spike protein
+Spike,1029,0.2,Spike protein
+Spike,1030,0.2,Spike protein
+Spike,1031,0.2,Spike protein
+Spike,1032,0.2,Spike protein
+Spike,1033,0.2,Spike protein
+Spike,1034,0.2,Spike protein
+Spike,1035,0.2,Spike protein
+Spike,1036,0.2,Spike protein
+Spike,1037,0.2,Spike protein
+Spike,1038,0.2,Spike protein
+Spike,1039,0.2,Spike protein
+Spike,1040,0.2,Spike protein
+Spike,1041,0.2,Spike protein
+Spike,1042,0.2,Spike protein
+Spike,1043,0.2,Spike protein
+Spike,1044,0.2,Spike protein
+Spike,1045,0.2,Spike protein
+Spike,1046,0.2,Spike protein
+Spike,1047,0.2,Spike protein
+Spike,1048,0.2,Spike protein
+Spike,1049,0.2,Spike protein
+Spike,1050,0.2,Spike protein
+Spike,1051,0.2,Spike protein
+Spike,1052,0.2,Spike protein
+Spike,1053,0.2,Spike protein
+Spike,1054,0.2,Spike protein
+Spike,1055,0.2,Spike protein
+Spike,1056,0.2,Spike protein
+Spike,1057,0.2,Spike protein
+Spike,1058,0.2,Spike protein
+Spike,1059,0.2,Spike protein
+Spike,1060,0.2,Spike protein
+Spike,1061,0.2,Spike protein
+Spike,1062,0.2,Spike protein
+Spike,1063,0.2,Spike protein
+Spike,1064,0.2,Spike protein
+Spike,1065,0.2,Spike protein
+Spike,1066,0.2,Spike protein
+Spike,1067,0.2,Spike protein
+Spike,1068,0.2,Spike protein
+Spike,1069,0.2,Spike protein
+Spike,1070,0.2,Spike protein
+Spike,1071,0.2,Spike protein
+Spike,1072,0.2,Spike protein
+Spike,1073,0.2,Spike protein
+Spike,1074,0.2,Spike protein
+Spike,1075,0.2,Spike protein
+Spike,1076,0.2,Spike protein
+Spike,1077,0.2,Spike protein
+Spike,1078,0.2,Spike protein
+Spike,1079,0.2,Spike protein
+Spike,1080,0.2,Spike protein
+Spike,1081,0.2,Spike protein
+Spike,1082,0.2,Spike protein
+Spike,1083,0.2,Spike protein
+Spike,1084,0.2,Spike protein
+Spike,1085,0.2,Spike protein
+Spike,1086,0.2,Spike protein
+Spike,1087,0.2,Spike protein
+Spike,1088,0.2,Spike protein
+Spike,1089,0.2,Spike protein
+Spike,1090,0.2,Spike protein
+Spike,1091,0.2,Spike protein
+Spike,1092,0.2,Spike protein
+Spike,1093,0.2,Spike protein
+Spike,1094,0.2,Spike protein
+Spike,1095,0.2,Spike protein
+Spike,1096,0.2,Spike protein
+Spike,1097,0.2,Spike protein
+Spike,1098,0.2,Spike protein
+Spike,1099,0.2,Spike protein
+Spike,1100,0.2,Spike protein
+Spike,1101,0.2,Spike protein
+Spike,1102,0.2,Spike protein
+Spike,1103,0.2,Spike protein
+Spike,1104,0.2,Spike protein
+Spike,1105,0.2,Spike protein
+Spike,1106,0.2,Spike protein
+Spike,1107,0.2,Spike protein
+Spike,1108,0.2,Spike protein
+Spike,1109,0.2,Spike protein
+Spike,1110,0.2,Spike protein
+Spike,1111,0.2,Spike protein
+Spike,1112,0.2,Spike protein
+Spike,1113,0.2,Spike protein
+Spike,1114,0.2,Spike protein
+Spike,1115,0.2,Spike protein
+Spike,1116,0.2,Spike protein
+Spike,1117,0.2,Spike protein
+Spike,1118,0.2,Spike protein
+Spike,1119,0.2,Spike protein
+Spike,1120,0.2,Spike protein
+Spike,1121,0.2,Spike protein
+Spike,1122,0.2,Spike protein
+Spike,1123,0.2,Spike protein
+Spike,1124,0.2,Spike protein
+Spike,1125,0.2,Spike protein
+Spike,1126,0.2,Spike protein
+Spike,1127,0.2,Spike protein
+Spike,1128,0.2,Spike protein
+Spike,1129,0.2,Spike protein
+Spike,1130,0.2,Spike protein
+Spike,1131,0.2,Spike protein
+Spike,1132,0.2,Spike protein
+Spike,1133,0.2,Spike protein
+Spike,1134,0.2,Spike protein
+Spike,1135,0.2,Spike protein
+Spike,1136,0.2,Spike protein
+Spike,1137,0.2,Spike protein
+Spike,1138,0.2,Spike protein
+Spike,1139,0.2,Spike protein
+Spike,1140,0.2,Spike protein
+Spike,1141,0.2,Spike protein
+Spike,1142,0.2,Spike protein
+Spike,1143,0.2,Spike protein
+Spike,1144,0.2,Spike protein
+Spike,1145,0.2,Spike protein
+Spike,1146,0.2,Spike protein
+Spike,1147,0.2,Spike protein
+Spike,1148,0.2,Spike protein
+Spike,1149,0.2,Spike protein
+Spike,1150,0.2,Spike protein
+Spike,1151,0.2,Spike protein
+Spike,1152,0.2,Spike protein
+Spike,1153,0.2,Spike protein
+Spike,1154,0.2,Spike protein
+Spike,1155,0.2,Spike protein
+Spike,1156,0.2,Spike protein
+Spike,1157,0.2,Spike protein
+Spike,1158,0.2,Spike protein
+Spike,1159,0.2,Spike protein
+Spike,1160,0.2,Spike protein
+Spike,1161,0.2,Spike protein
+Spike,1162,0.2,Spike protein
+Spike,1163,0.2,Spike protein
+Spike,1164,0.2,Spike protein
+Spike,1165,0.2,Spike protein
+Spike,1166,0.2,Spike protein
+Spike,1167,0.2,Spike protein
+Spike,1168,0.2,Spike protein
+Spike,1169,0.2,Spike protein
+Spike,1170,0.2,Spike protein
+Spike,1171,0.2,Spike protein
+Spike,1172,0.2,Spike protein
+Spike,1173,0.2,Spike protein
+Spike,1174,0.2,Spike protein
+Spike,1175,0.2,Spike protein
+Spike,1176,0.2,Spike protein
+Spike,1177,0.2,Spike protein
+Spike,1178,0.2,Spike protein
+Spike,1179,0.2,Spike protein
+Spike,1180,0.2,Spike protein
+Spike,1181,0.2,Spike protein
+Spike,1182,0.2,Spike protein
+Spike,1183,0.2,Spike protein
+Spike,1184,0.2,Spike protein
+Spike,1185,0.2,Spike protein
+Spike,1186,0.2,Spike protein
+Spike,1187,0.2,Spike protein
+Spike,1188,0.2,Spike protein
+Spike,1189,0.2,Spike protein
+Spike,1190,0.2,Spike protein
+Spike,1191,0.2,Spike protein
+Spike,1192,0.2,Spike protein
+Spike,1193,0.2,Spike protein
+Spike,1194,0.2,Spike protein
+Spike,1195,0.2,Spike protein
+Spike,1196,0.2,Spike protein
+Spike,1197,0.2,Spike protein
+Spike,1198,0.2,Spike protein
+Spike,1199,0.2,Spike protein
+Spike,1200,0.2,Spike protein
+Spike,1201,0.2,Spike protein
+Spike,1202,0.2,Spike protein
+Spike,1203,0.2,Spike protein
+Spike,1204,0.2,Spike protein
+Spike,1205,0.2,Spike protein
+Spike,1206,0.2,Spike protein
+Spike,1207,0.2,Spike protein
+Spike,1208,0.2,Spike protein
+Spike,1209,0.2,Spike protein
+Spike,1210,0.2,Spike protein
+Spike,1211,0.2,Spike protein
+Spike,1212,0.2,Spike protein
+Spike,1213,0.2,Spike protein
+Spike,1214,0.2,Spike protein
+Spike,1215,0.2,Spike protein
+Spike,1216,0.2,Spike protein
+Spike,1217,0.2,Spike protein
+Spike,1218,0.2,Spike protein
+Spike,1219,0.2,Spike protein
+Spike,1220,0.2,Spike protein
+Spike,1221,0.2,Spike protein
+Spike,1222,0.2,Spike protein
+Spike,1223,0.2,Spike protein
+Spike,1224,0.2,Spike protein
+Spike,1225,0.2,Spike protein
+Spike,1226,0.2,Spike protein
+Spike,1227,0.2,Spike protein
+Spike,1228,0.2,Spike protein
+Spike,1229,0.2,Spike protein
+Spike,1230,0.2,Spike protein
+Spike,1231,0.2,Spike protein
+Spike,1232,0.2,Spike protein
+Spike,1233,0.2,Spike protein
+Spike,1234,0.2,Spike protein
+Spike,1235,0.2,Spike protein
+Spike,1236,0.2,Spike protein
+Spike,1237,0.2,Spike protein
+Spike,1238,0.2,Spike protein
+Spike,1239,0.2,Spike protein
+Spike,1240,0.2,Spike protein
+Spike,1241,0.2,Spike protein
+Spike,1242,0.2,Spike protein
+Spike,1243,0.2,Spike protein
+Spike,1244,0.2,Spike protein
+Spike,1245,0.2,Spike protein
+Spike,1246,0.2,Spike protein
+Spike,1247,0.2,Spike protein
+Spike,1248,0.2,Spike protein
+Spike,1249,0.2,Spike protein
+Spike,1250,0.2,Spike protein
+Spike,1251,0.2,Spike protein
+Spike,1252,0.2,Spike protein
+Spike,1253,0.2,Spike protein
+Spike,1254,0.2,Spike protein
+Spike,1255,0.2,Spike protein
+Spike,1256,0.2,Spike protein
+Spike,1257,0.2,Spike protein
+Spike,1258,0.2,Spike protein
+Spike,1259,0.2,Spike protein
+Spike,1260,0.2,Spike protein
+Spike,1261,0.2,Spike protein
+Spike,1262,0.2,Spike protein
+Spike,1263,0.2,Spike protein
+Spike,1264,0.2,Spike protein
+Spike,1265,0.2,Spike protein
+Spike,1266,0.2,Spike protein
+Spike,1267,0.2,Spike protein
+Spike,1268,0.2,Spike protein
+Spike,1269,0.2,Spike protein
+Spike,1270,0.2,Spike protein
+Spike,1271,0.2,Spike protein
+Spike,1272,0.2,Spike protein
+Spike,1273,0.2,Spike protein

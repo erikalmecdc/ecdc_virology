@@ -1,0 +1,21 @@
+{
+	"INDIR" : "C:\\GISAID_DATA\\",
+	"OUTDIR" : "C:\\GISAID_DATA\\horizon_results\\",
+	"METADATA_FILE_PATTERN" : "metadata*.tar.xz",
+	
+	"LOCATION_FIELD" : "Location",
+	"STRAIN_FIELD" : "Virus name",
+	"MUTATIONS_FIELD" : "AA Substitutions",
+	"LINEAGE_FIELD" : "Pango lineage",
+	"COL_DATE_FIELD" : "Collection date",
+	"SUB_DATE_FIELD" : "Submission date",
+	"DAYS_NEW_UPLOAD" : 7,
+	"DAYS_NEW_COLLECTION" : 30,
+	"MIN_SEQUENCES" : 5,
+	"SCORE_CUTOFF" : 1.5,
+	"DEFAULT_MUTATION_SCORE" : 0.1,
+	
+	"WEIGHT_MUTATION" : 1,
+	"WEIGHT_NUMBER" : 1,
+	"WEIGHT_TREND" : 1
+}
