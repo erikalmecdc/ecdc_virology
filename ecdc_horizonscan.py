@@ -38,6 +38,7 @@ COL_DATE_FIELD = cfg['COL_DATE_FIELD'] # GISAID EpiCoV field for collection date
 SUB_DATE_FIELD = cfg['SUB_DATE_FIELD'] # GISAID EpiCoV field for submission date
 DAYS_NEW_UPLOAD = cfg['DAYS_NEW_UPLOAD'] # Days since upload to count as a newly uploaded sequences
 DAYS_NEW_COLLECTION = cfg['DAYS_NEW_COLLECTION'] # Days since collection to count as a newly collected sample
+DAYS_NEW_VARIANT = cfg['DAYS_NEW_VARIANT'] # Days from first detection that counts as an early detection
 MIN_SEQUENCES = cfg['MIN_SEQUENCES'] # Minimum number of sequences to display a variant, using 1 is very noisy
 SCORE_CUTOFF = cfg['SCORE_CUTOFF'] # The minimum mutation score for a mutation to be included in the mutation label
 DEFAULT_MUTATION_SCORE = cfg['DEFAULT_MUTATION_SCORE'] # The mutation score for unlisted genomic regions in the score definitions
@@ -67,8 +68,8 @@ def read_gisaid(infile):
     
     
     ''' Convert dates to datetime and check whether each entry is newly collected and/or uploaded'''
-    df['dt_submitted'] = pd.to_datetime(df[SUB_DATE_FIELD], errors='coerce')
-    df['dt_collected'] = pd.to_datetime(df[COL_DATE_FIELD], errors='coerce')
+    df['dt_submitted'] = pd.to_datetime(df[SUB_DATE_FIELD], errors='coerce', format='%Y-%m-%d')
+    df['dt_collected'] = pd.to_datetime(df[COL_DATE_FIELD], errors='coerce', format='%Y-%m-%d')
     now = pd.to_datetime('now')
     df['newly uploaded'] = df['dt_submitted'].between(now - pd.Timedelta(DAYS_NEW_UPLOAD, 'd'), now)
     df['newly collected'] = df['dt_collected'].between(now - pd.Timedelta(DAYS_NEW_COLLECTION, 'd'), now)
@@ -216,19 +217,30 @@ if __name__ == '__main__':
     ''' Ensure that columns that will be aggregated over are string datatype '''
     df_viruses[LINEAGE_FIELD] = df_viruses[LINEAGE_FIELD].astype(str)
     df_viruses['country'] = df_viruses['country'].astype(str)
-
+    
+    ''' Get earliest collection date for each variant '''
+    df_earliest_dates = df_viruses[[LINEAGE_FIELD, 'mutation label', 'dt_collected']].reset_index().groupby(
+                                by=['mutation label', LINEAGE_FIELD]).agg({'dt_collected' : 'min'})
+    
     ''' Label viruses that are newly collected or uploaded '''
     df_viruses['new countries uploaded'] = df_viruses.apply(lambda x : x['country'] if x['newly uploaded'] else '', axis=1)
     df_viruses['new countries collected'] = df_viruses.apply(lambda x : x['country'] if x['newly collected'] else '', axis=1)
     
+    ''' Label viruses that were detected early, as defined in the config '''
+    df_viruses['earliest countries'] = df_viruses.apply(
+        lambda x : x['country'] if x['dt_collected'] <=\
+            df_earliest_dates.loc[(x['mutation label'], x[LINEAGE_FIELD]), 'dt_collected'] + pd.Timedelta(DAYS_NEW_VARIANT, 'd') else '', axis=1)
+    
     ''' Aggregate strains into variants based on the Pango lineage and mutation label '''
     df_groups = df_viruses[['score', LINEAGE_FIELD, 'mutation label', 'country', 'mutation', 'newly collected', 'newly uploaded',
-                            'new countries uploaded', 'new countries collected']].reset_index().groupby(
+                            'new countries uploaded', 'new countries collected', 'dt_collected', 'earliest countries']].reset_index().groupby(
                                 by=['mutation label', LINEAGE_FIELD])
     
     df_variants = df_groups.agg({STRAIN_FIELD : 'count',
                                 'score' : 'median',
                                 'country' : lambda x : agg_countrylist(x),
+                                'dt_collected' : 'min',
+                                'earliest countries' : lambda x : agg_countrylist(x),
                                 'new countries uploaded' : lambda x : agg_countrylist(x),
                                 'new countries collected' : lambda x : agg_countrylist(x),
                                 'mutation' : lambda x: x.value_counts().index[0],
@@ -237,7 +249,7 @@ if __name__ == '__main__':
     
     ''' Rename some aggregated columns to more suitable labels '''    
     df_variants = df_variants.rename(columns={'Virus name': 'count','mutation': 'most common mutation profile',
-                                      'score':'mutation profile score', 'country':'countries'})
+                                      'score':'mutation profile score', 'country':'countries', 'dt_collected':'earliest collection date'})
     
     ''' Filter variants by the minimum number of sequences required '''
     df_variants = df_variants[df_variants['count']>=MIN_SEQUENCES]
@@ -254,8 +266,9 @@ if __name__ == '__main__':
     ''' Calculate labels for the variants '''
     df_variants = calc_labels(df_variants, df_assigned) 
     
+    print(df_variants.columns)
     ''' Make sure the most important columns are displayed first '''
-    prefix_cols = ['Label', 'Status', 'Comment', 'mutation label', 'Pango lineage', 'count', 'mutation profile score', 'number score', 'trend score', 'overall score']
+    prefix_cols = ['Label', 'Status', 'Comment', 'mutation label', 'Pango lineage', 'earliest collection date', 'count', 'mutation profile score', 'number score', 'trend score', 'overall score']
     cols = prefix_cols + [col for col in df_variants if col not in prefix_cols]
     df_variants = df_variants[cols]
 
