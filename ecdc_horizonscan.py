@@ -129,6 +129,8 @@ def calc_labels(df_variants, df_assigned):
         labels[index1] = label
         status[index1] = ''
         comment[index1] = ''
+        min_mismatch = 100
+        mismatch = 0
         
         ''' Iterate over pre-defined list of known variants of interest and concern '''
         for index2, row_ref in df_assigned.iterrows():
@@ -141,15 +143,24 @@ def calc_labels(df_variants, df_assigned):
             missing_muts = []
             for m in row_ref['mutation_list']:
                 if m not in row['mutation_list']:
+                    mismatch += 1
                     missing_muts.append(m)
             
             ''' Calculate which additional mutations the variant has '''
             extra_muts = []
             for m in row['mutation_list']:
                 if m!='nan' and m!='' and m not in row_ref['mutation_list']:
+                    mismatch += 1
                     extra_muts.append(m)
-                    
+            
+            if mismatch < min_mismatch:
+                min_mismatch = mismatch
+            else:
+                continue
+            
+                
             ''' If all characteristic mutations are found, assign VOC/VOI label '''
+            status[index1] = ''
             if not missing_muts:
                 status[index1] = row_ref['Status']
             elif row_ref['definition_flexible'] == 'no':
@@ -169,9 +180,12 @@ def calc_labels(df_variants, df_assigned):
             labels[index1] = label
            
             ''' If exact match, also assign the comment '''
+            
             if not missing_muts and not extra_muts:
                 comment[index1] = row_ref['Comment']
-            break
+            else:
+                comment[index1] = ''    
+            
     
     ''' Apply the labels, statuses and comments to all variants '''
     df_variants['Label'] = df_variants.index.map(labels)
