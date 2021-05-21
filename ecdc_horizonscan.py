@@ -23,6 +23,7 @@ import os
 import math
 from collections import Counter
 import json
+import numpy as np
 
 with open('config.json') as json_file:
     cfg = json.load(json_file)
@@ -70,6 +71,8 @@ def read_gisaid(infile):
     ''' Convert dates to datetime and check whether each entry is newly collected and/or uploaded'''
     df['dt_submitted'] = pd.to_datetime(df[SUB_DATE_FIELD], errors='coerce', format='%Y-%m-%d')
     df['dt_collected'] = pd.to_datetime(df[COL_DATE_FIELD], errors='coerce', format='%Y-%m-%d')
+    df.loc[df[COL_DATE_FIELD].str.len() < 10, 'dt_collected'] = np.NaN
+    
     now = pd.to_datetime('now')
     df['newly uploaded'] = df['dt_submitted'].between(now - pd.Timedelta(DAYS_NEW_UPLOAD, 'd'), now)
     df['newly collected'] = df['dt_collected'].between(now - pd.Timedelta(DAYS_NEW_COLLECTION, 'd'), now)
@@ -163,6 +166,8 @@ def calc_labels(df_variants, df_assigned):
             status[index1] = ''
             if not missing_muts:
                 status[index1] = row_ref['Status']
+                if extra_muts:
+                    status[index1] = status[index1] + '+'
             elif row_ref['definition_flexible'] == 'no':
                 ''' If the variant definition is not listed as flexible, do not assign label if characteristic mutations are missing'''
                 continue
@@ -290,5 +295,6 @@ if __name__ == '__main__':
     print('Variants:')
     print(df_variants)
     df_variants.to_csv(os.path.join(OUTDIR, 'variants_' + snapshot_date + '.csv'), sep=',')
+    
     print('DONE')
     
