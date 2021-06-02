@@ -24,6 +24,8 @@ import math
 from collections import Counter
 import json
 import numpy as np
+import re
+from datetime import datetime
 
 with open('config.json') as json_file:
     cfg = json.load(json_file)
@@ -87,7 +89,25 @@ def agg_countrylist(country_list):
     result = ', '.join(c + '(' + str(v) + ')' for c, v in sorted_counts if c != '')
     return result
 
-
+''' Merge several country lists produced by the agg_countrylist method '''
+def merge_countrylists(country_str_list):
+    tot_dict = {}
+    for country_str in country_str_list:
+        list_str = country_str.split(', ')
+        for country_fields in list_str:
+            if not '(' in country_fields:
+                continue
+            [country, count_str] = country_fields.replace(')','').split('(')
+            count = int(count_str)
+            if country not in tot_dict:
+                tot_dict[country] = count
+            else:
+                tot_dict[country] = tot_dict[country] + count
+    
+    sorted_counts = dict(sorted(tot_dict.items(), key=lambda item: item[1], reverse=True))
+    result = ', '.join(c + '(' + str(sorted_counts[c]) + ')' for c in sorted_counts if c != '')
+    return result
+    
 ''' Method for extracting all the mutation information from a dataframe containing GISAID EPiCoV metadata '''
 def extract_mutations(df, df_scores):
     
@@ -116,11 +136,69 @@ def extract_mutations(df, df_scores):
     
     return df_mutations
 
+''' Generates a Series that can be used for sorting a dataframe on whether a variant is a VOC, VOI or for monitoring '''
+def sorter(column):
+    reorder = [
+        "VOC",
+        "VOI",
+        "Monitoring",
+    ]
+    cat = pd.Categorical(column, categories=reorder, ordered=True)
+    return pd.Series(cat)
+
+
+''' Formats a country list for use in text '''
+def decorate_country_list(text):
+    if ',' in text:
+        prefix = 'countries were'
+        k = text.rfind(",")
+        text = text[:k] + ", and" + text[k+1:]
+    else:
+        prefix = 'country was'
+    if text == '':
+        text = 'No detections'
+    text = text.replace('(', ' (')
+    
+    return prefix, text
+    
+''' Method for generating a short descriptive text for a variant '''
+def generate_description(df):
+    description = {}
+    for index1, row in df.iterrows():
+        
+        ''' Get the descriptive data to be used in the text '''
+        description[index1] = ''        
+        name = row['EcdcVariant']
+        first = row['earliest collection date'].strftime('%B %Y')
+        earliest_countries = row['earliest countries']
+        earliest_countries = re.sub(r'[0-9\(\)]+', '', earliest_countries)
+        prefix1, earliest_countries = decorate_country_list(earliest_countries)
+        prefix2, countries = decorate_country_list(row['countries'])
+        prefix3, countries_new = decorate_country_list(row['new countries collected'])
+        now = datetime.now().strftime('%d %B %Y')
+        status = row['EcdcStatus']. replace('Monitoring', 'monitoring')
+        
+        ''' Generate descriptive text '''
+        desc = 'Variant {} was first detected in {}, the earliest reporting {} {}. \
+The variant has since been detected in the following countries and territories: {}. \
+In the last {} days, the variant has been detected in the following countries and territories: {}. \
+As of {}, ECDC classifies this variant in the category {}.'.format(
+            name, first, prefix1, earliest_countries, countries, DAYS_NEW_COLLECTION, countries_new, now, status)
+        
+        description[index1] = desc
+
+    ''' Set the value of the description column '''
+    df['Description'] = df.index.map(description)
+    return df
+
+
 ''' Method for calculating labels from a dataframe of pre-assigned labels and raw mutation and lineage labels dataframe '''
 def calc_labels(df_variants, df_assigned):
     labels = {}
+    base_status = {}
     status = {}
     comment = {}
+    ecdc_variant = {}
     
     ''' Split mutation label into a list of mutations '''
     df_assigned['mutation_list'] = df_assigned['mutation label'].apply(lambda x: str(x).split(';'))
@@ -131,12 +209,15 @@ def calc_labels(df_variants, df_assigned):
         label = ''
         labels[index1] = label
         status[index1] = ''
+        base_status[index1] = ''
         comment[index1] = ''
+        ecdc_variant[index1] = ''
         min_mismatch = 100
-        mismatch = 0
+        
         
         ''' Iterate over pre-defined list of known variants of interest and concern '''
         for index2, row_ref in df_assigned.iterrows():
+            mismatch = 0
             
             ''' If lineage does not match, do not assign this as the label '''
             if row[LINEAGE_FIELD] != row_ref[LINEAGE_FIELD]:
@@ -166,6 +247,8 @@ def calc_labels(df_variants, df_assigned):
             status[index1] = ''
             if not missing_muts:
                 status[index1] = row_ref['Status']
+                base_status[index1] = row_ref['Status']
+                ecdc_variant[index1] = row_ref['EcdcLabel']
                 if extra_muts:
                     status[index1] = status[index1] + '+'
             elif row_ref['definition_flexible'] == 'no':
@@ -196,6 +279,8 @@ def calc_labels(df_variants, df_assigned):
     df_variants['Label'] = df_variants.index.map(labels)
     df_variants['Status'] = df_variants.index.map(status)
     df_variants['Comment'] = df_variants.index.map(comment)
+    df_variants['EcdcVariant'] = df_variants.index.map(ecdc_variant)
+    df_variants['EcdcStatus'] = df_variants.index.map(base_status)
     
     return df_variants
 
@@ -285,16 +370,37 @@ if __name__ == '__main__':
     ''' Calculate labels for the variants '''
     df_variants = calc_labels(df_variants, df_assigned) 
     
-    print(df_variants.columns)
     ''' Make sure the most important columns are displayed first '''
     prefix_cols = ['Label', 'Status', 'Comment', 'mutation label', 'Pango lineage', 'earliest collection date', 'count', 'mutation profile score', 'number score', 'trend score', 'overall score']
     cols = prefix_cols + [col for col in df_variants if col not in prefix_cols]
     df_variants = df_variants[cols]
 
-    ''' Output variant table '''
+    ''' Group variants by the ECDC labels to generate an aggregated list where each entry corresponds to one VOC/VOI monitoring entry.
+        These are used for a simplified output for a less scientific audience '''
+    df_ecdc_groups = df_variants.loc[df_variants['EcdcStatus'] != ''][['EcdcVariant', 'EcdcStatus', 'earliest collection date', 'count', 'countries', 'earliest countries',
+                                  'new countries uploaded', 'new countries collected', 'newly collected', 'newly uploaded']].reset_index().groupby(
+                                by=['EcdcVariant', 'EcdcStatus'])
+    
+    ''' Aggregate data over the ECDC variant labels '''
+    df_ecdc = df_ecdc_groups.agg({'earliest collection date': 'min',
+                                'count' : 'sum',
+                                'countries' : lambda x : merge_countrylists(x),
+                                'earliest countries' : lambda x : merge_countrylists(x),
+                                'new countries collected' : lambda x : merge_countrylists(x),
+                                'new countries uploaded' : lambda x : merge_countrylists(x),
+                                'newly collected' : 'sum',
+                                'newly uploaded' : 'sum'
+                                }).reset_index() 
+    
+    ''' Generate descriptive text for the simplified variant table, and sort by category '''
+    df_ecdc = generate_description(df_ecdc)
+    df_ecdc = df_ecdc.sort_values(by="EcdcStatus", key=sorter)
+
+    ''' Output variant tables '''
     print('Variants:')
     print(df_variants)
     df_variants.to_csv(os.path.join(OUTDIR, 'variants_' + snapshot_date + '.csv'), sep=',')
+    df_ecdc.to_csv(os.path.join(OUTDIR, 'ecdc_variants_' + snapshot_date + '.csv'), sep=',')
     
     print('DONE')
     
