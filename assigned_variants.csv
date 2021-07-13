@@ -41,3 +41,5 @@ P.1.1,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;
 P.1.2,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.2
 P.2,Monitoring,P.2,29/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K,P.2
 P.3,VOI,P.3,21/04/2021,First identified in the Philippines,yes,Spike_D614G;Spike_E484K;Spike_N501Y;Spike_P681H,P.3
+AY.1,VOC,B.1.617.2+K417N,24/06/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K;Spike_K417N,AY.1
+AY.2,VOC,B.1.617.2+K417N,24/06/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K;Spike_K417N,AY.2
