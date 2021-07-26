@@ -16,15 +16,16 @@ B.1.351 (missassigned),VOC,B.1.351,21/04/2021,First identified in South Africa (
 B.1.351.1,VOC,B.1.351,21/04/2021,First identified in South Africa,yes,Spike_A701V;Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y,B.1.351.1
 B.1.351.2,VOC,B.1.351,21/04/2021,First identified in South Africa,yes,Spike_A701V;Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y,B.1.351.2
 B.1.351.3,VOC,B.1.351,21/04/2021,First identified in South Africa,yes,Spike_A701V;Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y,B.1.351.3
+B.1.351.4,VOC,B.1.351,14/07/2021,,yes,Spike_A701V;Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y,B.1.351.4
 B.1.351+E516Q,Monitoring,B.1.351+E516Q,26/04/2021,,no,Spike_A701V;Spike_D614G;Spike_E484K;Spike_E516Q;Spike_K417N;Spike_N501Y,B.1.351
 B.1.351+P384L,Monitoring,B.1.351+P384L,26/04/2021,,no,Spike_A701V;Spike_D614G;Spike_E484K;Spike_K417N;Spike_N501Y;Spike_P384L,B.1.351
-B.1.427,VOI,B.1.427/B.1.429,21/04/2021,First detected in the USA,yes,Spike_D614G;Spike_L452R,B.1.427
-B.1.429,VOI,B.1.427/B.1.429,21/04/2021,First detected in the USA,yes,Spike_D614G;Spike_L452R,B.1.429
+B.1.427,De-escalated,B.1.427/B.1.429,21/04/2021,First detected in the USA,yes,Spike_D614G;Spike_L452R,B.1.427
+B.1.429,De-escalated,B.1.427/B.1.429,21/04/2021,First detected in the USA,yes,Spike_D614G;Spike_L452R,B.1.429
 B.1.525,VOI,B.1.525,21/04/2021,First identified in Nigeria,no,Spike_D614G;Spike_E484K;Spike_Q677H,B.1.525
 B.1.526,Monitoring,B.1.526,29/04/2021,First identified in the USA,yes,Spike_A701V;Spike_D614G;Spike_E484K,B.1.526
 B.1.526.1,Monitoring,B.1.526.1,29/04/2021,First identified in the USA,yes,Spike_D614G;Spike_L452R,B.1.526.1
 B.1.526.2,Monitoring,B.1.526.2,29/04/2021,First identified in the USA,yes,Spike_D614G;Spike_S477N,B.1.526.2
-B.1.616,VOI,B.1.616,21/04/2021,First identified in France,yes,Spike_D614G;Spike_G669S;Spike_H655Y;Spike_V483A,B.1.616
+B.1.616,De-escalated,B.1.616,21/04/2021,First identified in France,yes,Spike_D614G;Spike_G669S;Spike_H655Y;Spike_V483A,B.1.616
 B.1.617.1,VOI,B.1.617.1,21/04/2021,First identified in India,yes,Spike_D614G;Spike_E484Q;Spike_L452R;Spike_P681R,B.1.617.1
 B.1.617.2,VOC,B.1.617.2,21/04/2021,First identified in India,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K,B.1.617.2
 B.1.617.3,VOI,B.1.617.3,21/04/2021,First identified in India,yes,Spike_D614G;Spike_E484Q;Spike_L452R;Spike_P681R,B.1.617.3
@@ -34,12 +35,19 @@ C.16,Monitoring,C.16,26/04/2021,,yes,Spike_D614G;Spike_L452R,C.16
 C.36+L452R,Monitoring,C.36+L452R,29/04/2021,First identified in Egypt,no,Spike_D614G;Spike_L452R;Spike_Q677H,C.36
 C.36.1+L452R,Monitoring,C.36+L452R,29/04/2021,First identified in Egypt,no,Spike_D614G;Spike_L452R;Spike_Q677H,C.36.1
 C.36.2+L452R,Monitoring,C.36+L452R,29/04/2021,First identified in Egypt,no,Spike_D614G;Spike_L452R;Spike_Q677H,C.36.2
-C.37,Monitoring,C.37,26/04/2021,,no,Spike_D614G;Spike_F490S;Spike_L452Q,C.37
+C.37,VOI,C.37,26/04/2021,,no,Spike_D614G;Spike_F490S;Spike_L452Q,C.37
 P.1,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1
 P.1 (missassigned),VOC,P.1,21/04/2021,First identified in Brazil,no,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,None
 P.1.1,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.1
 P.1.2,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.2
+P.1.3,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.3
+P.1.4,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.4
+P.1.5,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.5
+P.1.6,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.6
+P.1.7,VOC,P.1,21/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K;Spike_H655Y;Spike_K417T;Spike_N501Y,P.1.7
 P.2,Monitoring,P.2,29/04/2021,First identified in Brazil,yes,Spike_D614G;Spike_E484K,P.2
 P.3,VOI,P.3,21/04/2021,First identified in the Philippines,yes,Spike_D614G;Spike_E484K;Spike_N501Y;Spike_P681H,P.3
-AY.1,VOC,B.1.617.2+K417N,24/06/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K;Spike_K417N,AY.1
-AY.2,VOC,B.1.617.2+K417N,24/06/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K;Spike_K417N,AY.2
+AY.1,VOC,B.1.617.2,24/06/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K,AY.1
+AY.2,VOC,B.1.617.2,24/06/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K,AY.2
+AY.3,VOC,B.1.617.2,14/07/2021,,yes,Spike_D614G;Spike_L452R;Spike_P681R;Spike_T478K,AY.3
+B.1.621.1,VOI,B.1.621,14/07/2021,,yes,Spike_D614G;Spike_E484K;Spike_N501Y;Spike_P681H;Spike_R346K,B.1.621.1
